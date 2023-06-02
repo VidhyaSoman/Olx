@@ -1,0 +1,392 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.olxlogo
+{
+    padding-top: 7px;
+}
+.olx
+{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(237, 238, 238);
+    margin-bottom: 4px;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+.body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    padding-top: 12px;
+    height: 70px;
+}
+
+
+.location
+{
+    width: 250px;
+}
+.select i{
+    font-size: 15px;
+    transform: all 0.3s;
+}
+.select
+{
+    width: 100%;
+    height: 44px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+.option
+{
+    display: flex;
+    padding: 10px;
+    width: 250px;
+    cursor: pointer;
+}
+.option :hover
+{
+    background-color: #c7dcff;
+    width: 220px;
+}
+.option p
+{
+margin-left: 10px;
+color: #444444;
+}
+.option i
+{
+    color: #839a9c;
+}
+.option_box
+{
+    box-sizing: 0 0 10px grey;
+    background-color: rgb(237, 238, 238);
+    display: none;
+    /* border: 1px solid grey; */
+    border-radius: 6px;
+
+}
+.hidden
+{
+    display: block;
+}
+.roted
+{
+    transform: rotate(180deg);
+}
+.search-button {
+    background-color: #002f34;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-left: -9px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.find
+{
+    padding: 8px;
+    width: 600px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.language
+{
+    border: none;
+    background-color: rgb(237, 238, 238);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    appearance: none;
+    color: #002f34;
+}
+.arrow1
+{
+    border: none;
+    background-color: rgb(237, 238, 238);
+    appearance: none;
+}
+.arrow2
+{
+    border: none;
+    background-color: white;
+}
+.login
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: #002f34;
+    padding-top: 8px;
+}
+.login:hover
+{
+    color: #002f34;
+    text-decoration: none;
+}
+.sell
+{
+    background-color: rgb(237, 238, 238);
+    border: none;
+}
+.sellbtn
+{
+    border: none;
+    appearance: none;
+}
+.container-fluid
+{
+    width: 100%;
+    height:40px;
+    box-shadow: inset 0px 3px 3px rgb(237, 238, 238);
+    display: flex;
+    padding-top: 5px;
+    
+}
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cate
+{
+    padding-left: 20px;
+}
+.all
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+.catelink 
+{
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.catelink:hover
+{
+    text-decoration: none;
+    color: black;
+}
+.auto
+{
+    margin-bottom: 60px;
+    height: 135px;
+}
+.button-on-image {
+    position: absolute;
+    top: 160px;
+    left: 690px;
+    background-color: rgb(0, 47, 52);
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.dubai
+{
+    margin: auto;
+    display: block;
+    height: 260px;
+}
+.ad
+{
+    margin-bottom: 80px;
+}
+
+/* image gallery */
+
+.image
+{
+        margin:auto;
+        margin-left: 60px;
+}
+.gallery
+{
+        display: grid;
+        grid-template-columns: repeat(4,300px);
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 10px;
+        margin-bottom: 10px;
+}
+.frsh 
+{
+      width: 100%;
+      height: 28px;
+      margin-bottom: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400px;
+      font-size: 24px;
+}
+.main
+{
+    width: 300px;
+    border: 1px solid rgba(89, 90, 90, 0.64);
+    padding: 8px 8px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+    .place_date
+    {
+      display: grid;
+      grid-template-columns: 4fr 1fr;
+    }
+    .descr
+    {
+      padding: 2px;
+      color: rgba(1, 38, 43, 0.64);
+    }
+    .price1
+    {
+      padding: 2px;
+      color: black;
+      font-weight: bolder;
+      font-size: x-large;
+    }
+    .place
+    {
+      padding-top: 10px;
+      color: rgba(1, 38, 43, 0.64);
+      font-size: 11px;
+    }
+    .img
+    {
+      width: 230px;
+      height: 150px;  
+      margin: auto;
+      display: grid;
+      grid-template-columns: 5fr 1fr ;
+    } 
+    .heart0
+    {
+      padding-left: 40px;
+      color: black;
+    }
+
+    .heart
+    {
+      padding-left: 12px;
+      color: black;
+    }
+    .shimg
+    {
+      padding-left: 6px;
+    }
+    .shimg0
+    {
+      padding-left: 31px;
+    }
+    
+    .load
+    {
+        margin: auto;
+        width: 150px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .loadm
+    {
+        padding: 8px;
+        border-radius: 4px;
+        background-color: white;
+        font-weight: bold;
+    }
+    .div
+    {
+        background-color: rgb(237, 238, 238);
+        height: 148px;
+    }
+    .footer
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    .list
+    {
+        list-style-type: none;
+        font-size: 12.5px;
+        margin-top: 8px;
+    }
+    .a{
+        color: gray;
+    }
+    .a:hover
+    {
+        color: rgb(17, 17, 17);
+        text-decoration: none;
+    }
+    span
+    {
+        color: #002f34;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .i
+    {
+        color: grey;
+        border: none;
+    }
+    .icon
+    {
+        display: grid;
+        grid-template-columns: repeat(4,25px);
+    } 
+    .go
+    {
+        border: none;
+        margin-right: 8px;
+    }
+    .down
+    {
+        padding-top: 50px;
+    }
+    .app
+    {
+        border: none;
+    }
+    .last
+    {
+        background-color: #002f34;
+        height: 75px;
+        padding-left: 50px;
+        padding-right: 60px;
+        padding-top: 15px;
+    }
+    .span
+    {
+        color: white;
+        cursor: pointer;
+    }
+    .span1
+    {
+        color: white;
+        float: right;
+    }
+    
+
+
+

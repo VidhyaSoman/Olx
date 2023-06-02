@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX - Free classifieds in India, Buy and Sell for free anywhere in India with OLX Online Classified Advertising</title>
+    <link rel="stylesheet" href="Homeolx.css">
+    <link rel="icon" href="olx-portugal.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="olx">
+        <header class="header">
+            <div class="olxlogo"><img src="OLX-Logo.png" alt="img" width="40px" height="30px"></div>
+            
+            <div class="location" id="country">
+                <div class="select">
+                    <p id="text" style="padding-top: 8px;">Select your location</p>
+                    <i class="fa-solid fa-chevron-down" id="moving" style="padding-bottom: 3px;"></i>
+                </div>
+                <ul class="option_box" id="list">
+                    <li class="option" onclick="myfunction('KERALA')">
+                        <i class="fa-solid fa-location-dot"></i>
+                    <p>KERALA</p></li>
+                    <li class="option" onclick="myfunction('DELHI')">
+                        <i class="fa-solid fa-location-dot"></i>
+                    <p>DELHI</p></li>
+                    <li class="option" onclick="myfunction('KOLKATA')">
+                        <i class="fa-solid fa-location-dot"></i>
+                    <p>KOLKATA</p></li>
+                    <li class="option" onclick="myfunction('PUNJAB')">
+                        <i class="fa-solid fa-location-dot"></i>
+                    <p>PUNJAB</p></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input type="text" class="find" placeholder="Find Cars,Mobile Phones and more...">
+                <button class="search-button">
+                    <img src="searchb-removebg-preview.png" width="20px" height="20px"></i>
+                  </button>
+            </div>
+            <div class="lang">
+                <select name="lang" class="language">
+                    <option value="eng">ENGLISH</option>
+                    <option value="hin">हिंदी</option>
+                </select>
+                <button class="arrow1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="login">
+                <u><a href="#" class="login">Login</a></u>
+            </div>
+            <div class="sell">
+                <button class="sellbtn"><img src="OLXicon.jpg" alt="sellicon" height="50px" width="90px"></button>
+            </div>
+        </header>
+    </div>
+    <div class="container-fluid">
+        <div class="cate">
+                <span class="all" type="button">ALL CATEGORIES</span>
+                <button class="arrow2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </button>
+        </div>
+        <div class="container">
+            <div class="car"><a href="#" class="catelink">Cars</a></div>
+            <div class="car"><a href="#" class="catelink">Motorcycles</a></div>
+            <div class="car"><a href="#" class="catelink">Mobile Phones</a></div>
+            <div class="car"><a href="#" class="catelink">For Sale:Houses and Appartments</a></div>
+            <div class="car"><a href="#" class="catelink">Scooters</a></div>
+            <div class="car"><a href="#" class="catelink">Commercial & Other vehicles</a></div>
+            <div class="car"><a href="#" class="catelink">For Rent:Houses and Appartments</a></div>
+        </div>
+    </div>
+    <div class="auto">
+        <img src="hero.png" alt="Your image description" width="1349px">
+        <button class="button-on-image">Sell Car</button>
+    </div>
+    <div class="ad">
+        <img src="BENZ.PNG" alt="advertisement" class="dubai">
+    </div>
+
+    <!-- image gallery -->
+
+    <div class="image">
+        <div class="frsh"><p>Fresh Recommendation<p></div>
+        <div class="gallery">
+            <a href="wagon r.html" style="text-decoration: none;">
+            <div class="main">
+                <div class="img">
+                    <div class="shimg0"><img src="carimg1.png" alt="image of shoes" height="140px" width="160px"> </div>
+                    <div class="heart0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                </div>
+                <div class="desc">
+                      <div class="price1">₹4,25,000</div>
+                      <div class="descr">Wagonar Automatic 2nd Owner</div>
+                      <div class="place_date">
+                        <div class="place">THYKOODAM</div>
+                        <div class="place">6 Days Ago</div>
+                      </div>
+                </div>
+            </div>
+            </a>
+
+            <a href="house.html" style="text-decoration: none;">
+            <div class="main">
+                <div class="img">
+                    <div class="shimg"><img src="house.png" alt="image of shoes" height="140px" width="220px"></div>
+                    <div class="heart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                  </div>
+                  <div class="desc">
+                      <div class="price1">₹ 20,000</div>
+                      <div class="descr">House For Rent</div>
+                      <div class="place_date">
+                        <div class="place">MANNAMOOLA,THIRUVANANTHAPURAM</div>
+                        <div class="place">2 Days ago</div>
+                      </div>
+                  </div>
+            </div>
+            </a>
+
+            <a href="samph.html" style="text-decoration: none;">
+            <div class="main">
+                <div class="img">
+                    <div class="shimg"><img src="samph.png" alt="image of shoes" height="140px" width="220px"> </div>
+                    <div class="heart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                  </div>
+                  <div class="desc">
+                      <div class="price1">₹ 12,999</div>
+                      <div class="descr">SAMSUNG M31S</div>
+                      <div class="place_date">
+                        <div class="place">Kankurgachhi West, Kolkata, West Bengal</div>
+                        <div class="place">Today</div>
+                      </div>
+                  </div>
+            </div>
+            </a>
+
+            <a href="Honda.html" style="text-decoration: none;">
+            <div class="main">
+                <div class="img">
+                    <div class="shimg"><img src="image3.png" alt="image of shoes" height="140px" width="220px"> </div>
+                    <div class="heart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                  </div>
+                  <div class="desc">
+                      <div class="price1">₹ 7,69,991</div>
+                      <div class="descr">Honda City ZX VTEC,Petrol</div>
+                      <div class="place_date">
+                        <div class="place">Uttar Panchanan Gram,Kolkata</div>
+                        <div class="place">7 Days Ago</div>
+                      </div>
+                  </div>
+            </div>
+            </a>
+
+            <a href="sofa.html" style="text-decoration: none;">
+            <div class="main">
+                <div class="img">
+                    <div class="shimg"><img src="sofa.png" alt="image of shoes" height="140px" width="220px"> </div>
+                    <div class="heart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                  </div>
+                  <div class="desc">
+                      <div class="price1">₹ 7,000</div>
+                      <div class="descr">3 seater Sofa & Center Table</div>
+                      <div class="place_date">
+                        <div class="place">Sector 2 Block CG, Bidhannagar, West Bengal</div>
+                        <div class="place">Jan 3</div>
+                      </div>
+                  </div>
+            </div>
+            </a>
+
+            <a href="#" style="text-decoration: none;">
+            <div class="mainb" style="padding-left: 5px;">
+                <img src="blue.PNG" alt="blueee">
+            </div>
+            </a>
+
+            <a href="lcd.html" style="text-decoration: none;">
+            <div class="main">
+                <div class="img">
+                    <div class="shimg"><img src="LCD.png" alt="image of shoes" height="140px" width="220px"> </div>
+                    <div class="heart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                  </div>
+                  <div class="desc">
+                      <div class="price1">₹ 9,000</div>
+                      <div class="descr">LG led tv 32 inch</div>
+                      <div class="place_date">
+                        <div class="place">Tangra, Kolkata, West Bengal</div>
+                        <div class="place">Feb 28</div>
+                      </div>
+                  </div>
+            </div>
+            </a>
+
+            <a href="lap.html" style="text-decoration: none;">
+            <div class="main">
+                <div class="img">
+                    <div class="shimg"><img src="lap.png" alt="image of shoes" height="140px" width="220px"> </div>
+                    <div class="heart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                  </div>
+                  <div class="desc">
+                      <div class="price1">₹ 9,123</div>
+                      <div class="descr">Used laptop Buying and Selling</div>
+                      <div class="place_date">
+                        <div class="place">Ernakulam, Kochi, Kerala</div>
+                        <div class="place">Feb 18</div>
+                      </div>
+                  </div>
+            </div>
+            </a>
+
+            <a href="Ukelele.html" style="text-decoration: none;">
+                <div class="main">
+                <div class="img">
+                    <div class="shimg"><img src="ukelele.png" alt="image of ukelele" height="140px" width="220px"> </div>
+                    <div class="heart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                  </div>
+                  <div class="desc">
+                      <div class="price1">₹ 5,400</div>
+                      <div class="descr">Ukulele bamboo</div>
+                      <div class="place_date">
+                        <div class="place">Nellaya Village, Vaniyamkulam II, Kerala</div>
+                        <div class="place">January 10</div>
+                      </div>
+                  </div>
+                </div>
+            </a>
+
+            <a href="canon.html" style="text-decoration: none;">
+            <div class="main">
+                <div class="img">
+                    <div class="shimg"><img src="canon.png" alt="image of shoes" height="140px" width="220px"> </div>
+                    <div class="heart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                  </div>
+                  <div class="desc">
+                      <div class="price1">₹ 68,000</div>
+                      <div class="descr">Canon 70-200 (IS 2) Telly Lens for Sale</div>
+                      <div class="place_date">
+                        <div class="place">Nellaya Village, Vaniyamkulam II, Kerala</div>
+                        <div class="place">10 days</div>
+                      </div>
+                  </div>
+            </div>
+            </a>
+
+            <a href="house2.html" style="text-decoration: none;">
+            <div class="main">
+                <div class="img">
+                    <div class="shimg"><img src="house2.png" alt="image of house" height="140px" width="220px"> </div>
+                    <div class="heart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                  </div>
+                  <div class="desc">
+                      <div class="price1">₹ 50,00,000</div>
+                      <div class="descr">At Kulapully - 3 BHK House for Sale...</div>
+                      <div class="place_date">
+                        <div class="place">Vallapuzha, Shoranur, Kerala</div>
+                        <div class="place">Today</div>
+                      </div>
+                  </div>
+            </div>
+            </a>
+
+            <a href="schoolbus.html" style="text-decoration: none;">
+            <div class="main">
+                <div class="img">
+                    <div class="shimg"><img src="schoolbus.png" alt="image of shoes" height="140px" width="220px"> </div>
+                    <div class="heart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                  </div>
+                  <div class="desc">
+                      <div class="price1">₹ 13,00,000</div>
+                      <div class="descr">Tata marcopolo school bus 37 seater</div>
+                      <div class="place_date">
+                        <div class="place">Muvattupuzha, Kerala</div>
+                        <div class="place">Jan 23</div>
+                      </div>
+                  </div>
+            </div>
+        </a>
+
+        <a href="A33.html" style="text-decoration: none;">
+            <div class="main">
+                <div class="img">
+                    <div class="shimg1" style="padding-left: 60px;"><img src="A33.png" alt="image of shoes" height="140px" width="100px"> </div>
+                    <div class="heart1" style="padding-left: 75px; color: black;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                    </svg></div>
+                  </div>
+                  <div class="desc">
+                      <div class="price1">₹ 15,000</div>
+                      <div class="descr">A33 (3 months)</div>
+                      <div class="place_date">     
+                        <div class="place">Howrah AC Market, Howrah, West Bengal</div>
+                        <div class="place">March 10</div>
+                      </div>
+                  </div>
+            </div>
+        </a>
+        </div>
+    </div>
+
+    <div class="load">
+        <button class="loadm">Load more</button>
+    </div>
+
+    <div class="ad">
+        <img src="Capture.JPG" alt="advertisement" class="dubai">
+    </div>
+
+    <div class="footerimg">
+        <img src="footer.jpeg" alt="phoneimg" width="1349px">
+    </div>
+
+    <div class="div">
+        <div class="footer">
+        <div class="popu">
+            <span>POPULAR LOCATIONS</span>
+            <ul class="list">
+                <li><a href="" class="a">Kolkata</a></li>
+                <li><a href="" class="a">Mumbai</a></li>
+                <li><a href="" class="a">Chennai</a></li>
+                <li><a href="" class="a">Pune</a></li>
+            </ul>
+        </div>
+        <div class="trend">
+            <span>TRENDING LOCATIONS</span>
+            <ul class="list">
+                <li><a href="" class="a">Bhubaneswar</a></li>
+                <li><a href="" class="a">Hyderabad</a></li>
+                <li><a href="" class="a">Chandigarh</a></li>
+                <li><a href="" class="a">Nashik</a></li>
+            </ul>
+        </div>
+        <div class="abou">
+            <span>ABOUT US</span>
+            <ul class="list">
+                <li><a href="" class="a">About OLX Group</a></li>
+                <li><a href="" class="a">Careers</a></li>
+                <li><a href="" class="a">Contact Us</a></li>
+                <li><a href="" class="a">OLX People</a></li>
+                <li><a href="" class="a">Waah Jobs</a></li>
+            </ul>
+        </div>
+        <div class="ol">
+            <span>OLX</span>
+            <ul class="list">
+                <li><a href="" class="a">Help</a></li>
+                <li><a href="" class="a">Site Mpa</a></li>
+                <li><a href="" class="a">Legal & Privacy Informations</a></li>
+                <li><a href="" class="a">Blog</a></li>
+                <li><a href="" class="a">OLX Autos Sell Car</a></li>
+            </ul>
+        </div>
+        <div class="follow">
+            <span>FOLLOW US</span>
+            <div class="icon">
+                <button class="i"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg></button>
+                <button class="i"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg></button>
+                <button class="i"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg></button>
+                <button class="i"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                  </svg></button>
+            </div>
+            <div class="down">
+                <button class="go"><img src="google-play-badge.png" alt="google store" width="98px" height="26px"></button>
+                <button class="app"><img src="app-store-badge.png" alt="app store" width="98px" height="26px"></button>
+            </div>
+        </div>
+    </div>
+    <div class="last">
+        <div class="other">
+            <span class="span" style="font-size: 12px;">Other countries</span>
+            <p class="span1" style="font-size: 12px;">All rights reserved © 2006-2023 OLX</p>
+        </div>
+        <p class="span" style="font-size: 12px;">Indonesia-Pakistan-South Africa</p>
+    </div>
+
+    <script>
+        let country=document.getElementById('country');
+        let moving=document.getElementById('moving');
+        let text=document.getElementById('text');
+        let list=document.getElementById('list');
+
+        country.addEventListener('click',()=>{
+            list.classList.toggle('hidden');
+            moving.classList.toggle('roted')
+        });
+        function myfunction(KERALA)
+        {
+            text.innerHTML=KERALA;
+        }
+    </script>
+
+</body>
+</html>
